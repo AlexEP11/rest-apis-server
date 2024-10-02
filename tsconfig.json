@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        // Opciones para compilar TS
+        "outDir": "./dist", // Donde se pondran los archivos compilados
+        "rootDir": "./src", // Donde estan los archivos a compilar
+        "lib": ["ESNext"],
+        "strict": false, // False: Permite anys
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "target": "ESNext", // Version a la que se va a compilar
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+
+        // Usar decoradores "@" en los modelos con TS
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/**/*.test.ts"]
+}
